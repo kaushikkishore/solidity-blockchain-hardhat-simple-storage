@@ -3,6 +3,8 @@ require("@nomiclabs/hardhat-etherscan");
 
 require("dotenv").config();
 
+require("./tasks/block-number");
+
 /** @type import('hardhat/config').HardhatUserConfig */
 const RPC_URL = process.env.GOERLI_RPC_URL;
 const ACCOUNT = process.env.GOERLI_API_KEY;

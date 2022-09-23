@@ -20,6 +20,11 @@ module.exports = {
       accounts: [ACCOUNT],
       chainId: 5,
     },
+    localhost: {
+      url: "http://127.0.0.1:8545",
+      // accounts: [] this will be auto populated
+      chainId: 31337,
+    },
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
